@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-  compile files('../EstimoteSDK/estimote-sdk-preview.jar')
+  compile files('libs/estimote-sdk-preview.jar')
 }
 
 task wrapper(type: Wrapper) {
